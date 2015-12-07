@@ -1,0 +1,13 @@
+/*body{padding-top:0!important;}*/
+
+header{width:80%; padding:1% 10%; position:fixed; background-color:transparent;
+	.logo{display: block; float:left;}
+ 	nav{display: block; float: right; position:relative; 	
+ 		ul{list-style-type: none; padding:5% 0; margin:0; text-align: right;
+		 	li{ display: inline-block; padding:0 5%;
+			 	a{display:block;  text-decoration: none; color:$black; &:hover{text-decoration: underline;}}
+		 	}
+	 	}
+ 	}
+}
+ 
