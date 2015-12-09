@@ -429,6 +429,12 @@ h5 {
 p {
   margin: 0; }
 
+/*--imagenes de inicio--*/
+.home-imgs {
+  width: 75%;
+  display: block;
+  margin: 2% auto; }
+
 /*--borders--*/
 .border-top-red {
   border-top: 3px solid #eb151d; }
@@ -446,7 +452,8 @@ p {
 
 .container {
   width: 80%;
-  padding: 1% 10%; }
+  padding: 1% 5%;
+  margin: 0 auto; }
 
 /*--paginas--*/
 .inicio .container .inner .p-cont {
@@ -457,8 +464,34 @@ p {
   .inicio .container .inner .p-cont p {
     float: right;
     width: 80%; }
+.inicio .container .inner .p-cont2 {
+  width: 40%;
+  float: left; }
+  .inicio .container .inner .p-cont2 .side-border {
+    float: left;
+    margin-top: 30px; }
+  .inicio .container .inner .p-cont2 h3 {
+    float: right;
+    width: 80%;
+    margin: 0;
+    font-weight: normal;
+    color: #eb151d;
+    font-size: 48px; }
+  .inicio .container .inner .p-cont2 h4 {
+    float: right;
+    width: 80%;
+    margin: 0;
+    font-size: 30px; }
 .inicio .container .inner h5 {
   float: right;
   width: 40%; }
+.inicio .container .inner h6 {
+  float: right;
+  width: 40%;
+  margin-top: 75px;
+  margin-right: 13%;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal; }
 
 /*# sourceMappingURL=main.css.map */

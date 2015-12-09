@@ -36,7 +36,38 @@
 		<div class="container bg-gray">
 			<div class="inner cf ">
 				<h2>¿Qué hacemos?</h2>
-				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos">
+				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
+				
+				<div class="p-cont2 cf">
+					<span class="side-border"></span>
+					<h3>01</h3>
+					<h4>Vinculamos</h4>
+				</div>
+				
+				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+				
+				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
+				
+				<div class="p-cont2 cf">
+					<span class="side-border"></span>
+					<h3>02</h3>
+					<h4>Planeamos</h4>
+				</div>
+				
+				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+				
+				
+				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
+				
+				<div class="p-cont2 cf">
+					<span class="side-border"></span>
+					<h3>03</h3>
+					<h4>Resolvemos</h4>
+				</div>
+				
+				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+
+
 			</div>
 		</div>	
 		<!--que hacemos-->
