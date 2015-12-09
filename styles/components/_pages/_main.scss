@@ -3,6 +3,37 @@
 .both{clear:both;}
 .center{text-align:center;}
 
+/*--headers--*/
+h1, h2{color:$red; font-size:48px;}
+h5{font-size:24px; margin:0;}
+
+
+/*--paragraph--*/
+p{margin:0;}
+
+
+/*--borders--*/
+.border-top-red{border-top:3px solid $red;}
+.side-border{display:inline-block; vertical-align:middle; width:15%; border-top:1px solid $red; margin-top:10px;}
+
 .mast{
 	img{display: block; width:100%;}
+}
+
+.container{width:80%; padding:1% 10%;}
+
+
+/*--paginas--*/
+
+.inicio{
+	.container{
+		.inner{
+			.p-cont{width:40%; float:left; 
+				.side-border{float:left;}
+				p{float:right; width:80%;}
+			}
+			
+			h5{float:right; width:40%;}
+		}
+	}
 }
