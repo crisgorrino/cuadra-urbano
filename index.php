@@ -54,7 +54,7 @@
 					<h4>Planeamos</h4>
 				</div>
 				
-				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+				<h6 class="border-top-red">La complejidad de los procesos urbanos hacen necesario el desarrollo de estrategias integrales eficaces y congruentes. </h6>
 				
 				
 				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
@@ -65,7 +65,7 @@
 					<h4>Resolvemos</h4>
 				</div>
 				
-				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+				<h6 class="border-top-red">En Cuadra hemos estructurado nuestros productos y servicios para abordar de forma integral los retos de la ciudad. </h6>
 
 
 			</div>

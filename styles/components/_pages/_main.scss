@@ -1,6 +1,6 @@
 .left{float:left;}
 .right{float:right;}
-.both{clear:both;}
+.clear{clear:both;}
 .center{text-align:center;}
 
 /*--headers--*/
@@ -14,6 +14,7 @@ p{margin:0;}
 
 /*--imagenes de inicio--*/
 .home-imgs{width:75%; display: block; margin:2% auto;}
+.red-square{background-color:red; display: inline-block; width:5px; height:5px; vertical-align: middle; margin: 0 10px 0 0;}
 
 
 /*--borders--*/
@@ -48,3 +49,36 @@ p{margin:0;}
 		}
 	}
 }
+
+
+/*--servicios--*/
+
+.servicios{
+	.container{		
+		.inner{padding: 10px;
+			 .etabs { margin:5% 0 0 0; padding: 0; list-style-type: none; width:40%; text-align: right;
+			 	.tab { display: inline-block; zoom:1; *display:inline; margin:0 2%; width:15%; &.active a{background-color:#000;}
+				 	a{color:#fff;text-decoration:none; display: block; border-radius:50%; padding: 35% 0%; background-color:$drk-gray; text-align: center; &:hover{background-color:#000;}}
+			 	}
+			 }			 
+		}
+	}
+
+}
+
+#us{
+	h5{width:50%; margin: 5% auto;}
+	
+	p{float:left; width:40%; line-height:25px;}
+	
+	ul{float:right; display:block; width:40%;
+		li{display:block; margin: 0 0 20px 0; }
+	}
+}
+
+
+
+
+/*--servicios projects---*/
+
+
