@@ -506,7 +506,7 @@ p {
 .servicios .container .inner {
   padding: 10px; }
   .servicios .container .inner .etabs {
-    margin: 5% 0 0 0;
+    margin: 3% 0 0 0;
     padding: 0;
     list-style-type: none;
     width: 40%;
@@ -546,5 +546,14 @@ p {
     margin: 0 0 20px 0; }
 
 /*--servicios projects---*/
+.serv-proyectos {
+  margin: 5% 0; }
+  .serv-proyectos .sp {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top; }
+    .serv-proyectos .sp p {
+      float: none !important;
+      width: 100% !important; }
 
 /*# sourceMappingURL=main.css.map */

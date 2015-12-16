@@ -44,9 +44,45 @@ En Cuadra Urbanismo diseñamos plataformas de co-creación a partir de la sensib
 							<ul>
 								<li><span class="red-square"></span> Plataformas de co-creación de    proyectos (socialización)</li>
 								<li><span class="red-square"></span> Activaciones urbanas     (placemaking)</li>
-								<li><span class="red-square"></span> Estrategias de sensibilización y     comunicación de  proyectos     urbanos</li>
-								<li><span class="red-square"></span> Rehabilitación colaborativa    de barrios (Huertos urbanos,      murales, gestión cultural, etc.)</li>
-							</ul>
+								<li><span class="red-square"></span> Estrategias de sensibilización y  comunicación de  proyectos urbanos</li>
+								<li><span class="red-square"></span> Rehabilitación colaborativa de barrios (Huertos urbanos, murales, gestión cultural, etc.)</li>
+							</ul>	
+							
+							<div class="clear"></div>									
+							<!--proyectos-->
+							<div class="serv-proyectos">
+								
+								<!--proy 1-->
+								<div class="sp center">
+									<img src="img/proy-placeholder.jpg" alt="">
+									<h2>Titulo 01</h2>
+									<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
+									</p>
+								</div>
+								<!--proy 2-->
+								
+								<!--proy 1-->
+								<div class="sp center">
+									<img src="img/proy-placeholder.jpg" alt="">
+									<h2>Titulo 02</h2>
+									<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
+									</p>
+								</div>
+								<!--proy 1-->
+								
+								
+								<!--proy 1-->
+								<div class="sp center">
+									<img src="img/proy-placeholder.jpg" alt="">
+									<h2>Titulo 03</h2>
+									<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
+									</p>
+								</div>
+								<!--proy 1-->
+								
+							</div>	
+							<!--proyectos-->									
+							
 							
 					    <!-- content -->
 					  </div>
