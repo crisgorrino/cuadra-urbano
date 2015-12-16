@@ -530,18 +530,18 @@ p {
         .servicios .container .inner .etabs .tab a:hover {
           background-color: #000; }
 
-#us h5 {
+#us h5, #ui h5, #tic h5, #epm h5, #pp h5 {
   width: 50%;
   margin: 5% auto; }
-#us p {
+#us p, #ui p, #tic p, #epm p, #pp p {
   float: left;
   width: 40%;
   line-height: 25px; }
-#us ul {
+#us ul, #ui ul, #tic ul, #epm ul, #pp ul {
   float: right;
   display: block;
   width: 40%; }
-  #us ul li {
+  #us ul li, #ui ul li, #tic ul li, #epm ul li, #pp ul li {
     display: block;
     margin: 0 0 20px 0; }
 
