@@ -13,7 +13,7 @@ p{margin:0;}
 
 
 /*--imagenes de inicio--*/
-.home-imgs{width:75%; display: block; margin:2% auto;}
+.home-imgs{width:75%; display: block; margin:2% auto; visibility:hidden; }
 .red-square{background-color:red; display: inline-block; width:5px; height:5px; vertical-align: middle; margin: 0 10px 0 0;}
 
 
@@ -37,7 +37,7 @@ p{margin:0;}
 				p{float:right; width:80%;}
 			}
 			
-			.p-cont2{width:40%; float:left; 
+			.p-cont2{width:40%; float:left; visibility: hidden;
 				.side-border{float:left; margin-top:30px;}
 				h3{float:right; width:80%; margin:0; font-weight:normal; color:$red; font-size:48px;}
 				h4{float:right; width:80%; margin:0; font-size:30px;}
@@ -46,6 +46,7 @@ p{margin:0;}
 			
 			h5{float:right; width:40%;}
 			h6{float:right; width:40%; margin-top:75px; margin-right:13%; font-size: 18px; line-height:20px; font-weight:normal;}
+			h6.border-top-red{visibility: hidden;}
 		}
 	}
 }

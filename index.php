@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="styles/main.css">
-
+		<link rel="stylesheet" href="styles/animations.css">
     </head>
     <body class="inicio">
 		<!--header include-->
@@ -71,6 +71,40 @@
 			</div>
 		</div>	
 		<!--que hacemos-->
+		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+		<script>
+			$(window).scroll(function() {
+				$('.home-imgs').each(function(){
+				var imagePos = $(this).offset().top;
+		
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow+400) {
+						$(this).addClass("slideRight");
+					}
+				});
+				
+				$('.p-cont2').each(function(){
+				var imagePos = $(this).offset().top;
+		
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow+700) {
+						$(this).addClass("fadeIn");
+					}
+				});
+				
+				$('h6.border-top-red').each(function(){
+				var imagePos = $(this).offset().top;
+		
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow+700) {
+						$(this).addClass("slideLeft");
+					}
+				});
+				
+				
+				
+		    });
+		</script>
 		
     </body>
 </html>
