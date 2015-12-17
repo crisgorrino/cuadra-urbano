@@ -549,13 +549,43 @@ p {
     display: block;
     margin: 0 0 20px 0; }
 
-/*--servicios projects---*/
+/*--proyectos--*/
+.proyectos .container {
+  margin-top: 5%; }
+  .proyectos .container .inner .proy-filters {
+    margin: 3% 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    width: 40%;
+    text-align: right;
+    float: right; }
+    .proyectos .container .inner .proy-filters .filter {
+      display: inline-block;
+      zoom: 1;
+      *display: inline;
+      margin: 0 2%;
+      width: 15%; }
+      .proyectos .container .inner .proy-filters .filter.active a {
+        background-color: #000; }
+      .proyectos .container .inner .proy-filters .filter a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        border-radius: 50%;
+        padding: 35% 0%;
+        background-color: #9b9b9b;
+        text-align: center; }
+        .proyectos .container .inner .proy-filters .filter a:hover {
+          background-color: #000; }
+
+/*--projects---*/
 .serv-proyectos {
   margin: 5% 0; }
   .serv-proyectos .sp {
     width: 30%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    margin: 5% 0; }
     .serv-proyectos .sp p {
       float: none !important;
       width: 100% !important; }

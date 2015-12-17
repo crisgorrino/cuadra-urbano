@@ -21,7 +21,7 @@
 		<div class="servicios">
 			<div  class="container">
 				<div class="tab-container inner cf" id="tab-container">
-					<h1 class="left">Proyectos</h1>
+					<h1 class="left">Servicios</h1>
 					  <ul class='etabs right'>
 					    <li class='tab'><a href="#us">US</a></li>
 					    <li class='tab'><a href="#ui">UI</a></li>

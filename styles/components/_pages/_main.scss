@@ -79,11 +79,23 @@ p{margin:0;}
 
 
 
-
-/*--servicios projects---*/
-.serv-proyectos{margin:5% 0;
-	.sp{width:30%; display: inline-block; vertical-align: top;
-		p{float:none!important; width:100%!important;}
+/*--proyectos--*/
+.proyectos{
+	.container{margin-top:5%;
+		.inner{
+			.proy-filters{margin:3% 0 0 0; padding: 0; list-style-type: none; width:40%; text-align: right; float: right;
+				.filter{display: inline-block; zoom:1; *display:inline; margin:0 2%; width:15%; &.active a{background-color:#000;}  
+					a{color:#fff;text-decoration:none; display: block; border-radius:50%; padding: 35% 0%; background-color:$drk-gray; text-align: center; &:hover{background-color:#000;}}
+				}
+			}
+		}
 	}
 }
 
+
+/*--projects---*/
+.serv-proyectos{margin:5% 0;
+	.sp{width:30%; display: inline-block; vertical-align: top; margin:5% 0;
+		p{float:none!important; width:100%!important;}
+	}
+}
