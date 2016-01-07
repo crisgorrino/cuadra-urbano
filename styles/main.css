@@ -375,6 +375,9 @@ blockquote {
 .bg-gray {
   background-color: #f3f3f3; }
 
+.gray {
+  color: #9b9b9b; }
+
 /*body{padding-top:0!important;}*/
 header {
   width: 80%;
@@ -589,5 +592,20 @@ p {
     .serv-proyectos .sp p {
       float: none !important;
       width: 100% !important; }
+
+/*--detalle proyectos---*/
+.detalle-proyectos {
+  margin: 5% 0; }
+  .detalle-proyectos p {
+    float: left;
+    width: 45%;
+    line-height: 25px; }
+  .detalle-proyectos .slider {
+    float: right;
+    width: 45%; }
+    .detalle-proyectos .slider img {
+      display: block;
+      width: 75%;
+      float: right; }
 
 /*# sourceMappingURL=main.css.map */

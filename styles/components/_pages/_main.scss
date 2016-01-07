@@ -99,3 +99,13 @@ p{margin:0;}
 		p{float:none!important; width:100%!important;}
 	}
 }
+
+
+/*--detalle proyectos---*/
+.detalle-proyectos{margin:5% 0;
+	p{float: left; width:45%; line-height:25px; }
+	
+	.slider{float: right; width:45%;
+		img{display:block; width:75%; float:right;}
+	}
+}
