@@ -1,6 +1,6 @@
 <!--header include-->
 		<header class="cf">
-			<a href="#" class="logo"><img src="img/logo-main.jpg" alt="Cuadra Urbano"></a>
+			<a href="index.php" class="logo"><img src="img/logo-main.jpg" alt="Cuadra Urbano"></a>
 			<nav>
 				<ul>
 					<li><a href="index.php">CUADRA</a></li>

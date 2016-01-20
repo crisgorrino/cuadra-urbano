@@ -585,9 +585,10 @@ p {
 .serv-proyectos {
   margin: 5% 0; }
   .serv-proyectos .sp {
-    width: 30%;
+    width: 29%;
     display: inline-block;
     vertical-align: top;
+    padding: 0 2%;
     margin: 5% 0; }
     .serv-proyectos .sp p {
       float: none !important;
