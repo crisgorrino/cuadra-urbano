@@ -592,7 +592,8 @@ p {
     margin: 5% 0; }
     .serv-proyectos .sp p {
       float: none !important;
-      width: 100% !important; }
+      width: 100% !important;
+      text-align: left; }
 
 /*--detalle proyectos---*/
 .detalle-proyectos {
