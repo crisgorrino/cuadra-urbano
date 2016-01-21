@@ -14,8 +14,8 @@
 		<?php include('includes/header.php') ?>
 		<!--header include-->
 		
-		<div class="mast">
-			<img src="img/gifs/servicios.gif" alt="cuadra urbano">
+		<div class="mast serv">
+			<!--<img src="img/gifs/servicios.gif" alt="cuadra urbano">-->
 		</div>
 		
 		<div class="servicios">
@@ -24,7 +24,7 @@
 					<h1 class="left">Servicios</h1>
 					  <ul class='etabs right'>
 					    <li class='tab'><a href="#us">US</a></li>
-					    <li class='tab'><a href="#ui">UI</a></li>
+					    <li class='tab'><a href="#ui">IU</a></li>
 					    <li class='tab'><a href="#tic">TIC</a></li>
 					    <li class='tab'><a href="#epm">EPM</a></li>
 					    <li class='tab'><a href="#pp">PP</a></li>
@@ -91,7 +91,7 @@ En Cuadra Urbanismo diseñamos plataformas de co-creación a partir de la sensib
 					  
 					  <!--UI-->
 					  <div id="ui">
-					    <h2>U I</h2>
+					    <h2>I U</h2>
 					    
 					    	<h5 class="border-top-red">
 						    La ciudad es producto de una construcción social. Desde esta perspectiva buscamos promover el enriquecimiento del capital social a través de intervenciones comunitarias que contribuyan a la mejora del entorno y el fortalecimiento de la identidad.

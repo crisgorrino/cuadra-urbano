@@ -14,8 +14,8 @@
 		<?php include('includes/header.php') ?>
 		<!--header include-->
 		
-		<div class="mast">
-			<img src="img/gifs/merida.gif" alt="cuadra urbano">
+		<div class="mast proyectos">
+			<!--<img src="img/gifs/merida.gif" alt="cuadra urbano">-->
 		</div>
 		
 		
@@ -25,7 +25,7 @@
 				
 				<ul class='proy-filters'>
 					<li class='filter active'><a href="#us">US</a></li>
-					<li class='filter'><a href="#ui">UI</a></li>
+					<li class='filter'><a href="#ui">IU</a></li>
 					<li class='filter'><a href="#tic">TIC</a></li>
 					<li class='filter'><a href="#epm">EPM</a></li>
 					<li class='filter'><a href="#pp">PP</a></li>

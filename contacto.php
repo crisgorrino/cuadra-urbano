@@ -14,8 +14,8 @@
 		<?php include('includes/header.php') ?>
 		<!--header include-->
 		
-		<div class="mast">
-			<img src="img/gifs/crucepeatonaldf.gif" alt="cuadra urbano">
+		<div class="mast contacto">
+			<!--img src="img/gifs/crucepeatonaldf.gif" alt="cuadra urbano">-->
 		</div>
 		
     </body>

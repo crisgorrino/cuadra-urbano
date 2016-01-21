@@ -382,7 +382,7 @@ blockquote {
 header {
   width: 80%;
   padding: 1% 10%;
-  position: fixed;
+  position: absolute;
   /*background-color:transparent;*/
   background-color: rgba(255, 255, 255, 0.7); }
   header .logo {
@@ -407,6 +407,9 @@ header {
           color: #000000; }
           header nav ul li a:hover {
             text-decoration: underline; }
+
+html, body {
+  height: 100%; }
 
 .left {
   float: left; }
@@ -445,8 +448,9 @@ p {
   display: inline-block;
   width: 5px;
   height: 5px;
-  vertical-align: middle;
-  margin: 0 10px 0 0; }
+  position: absolute;
+  left: -10px;
+  top: 6px; }
 
 /*--borders--*/
 .border-top-red {
@@ -467,6 +471,25 @@ p {
   width: 80%;
   padding: 1% 5%;
   margin: 0 auto; }
+
+/*--MAST--*/
+.mast {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.mast.inicio {
+  background-image: url("../img/gifs/crucepeatonaldf.gif"); }
+
+.mast.serv {
+  background-image: url("../img/gifs/servicios.gif"); }
+
+.mast.proyectos {
+  background-image: url("../img/gifs/merida.gif"); }
+
+.mast.contacto {
+  background-image: url("../img/gifs/crucepeatonaldf.gif"); }
 
 /*--paginas--*/
 .inicio .container .inner .p-cont {
@@ -551,7 +574,8 @@ p {
   width: 40%; }
   #us ul li, #ui ul li, #tic ul li, #epm ul li, #pp ul li {
     display: block;
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px 0;
+    position: relative; }
 
 /*--proyectos--*/
 .proyectos .container {
