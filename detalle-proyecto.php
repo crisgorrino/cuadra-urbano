@@ -14,8 +14,8 @@
 		<?php include('includes/header.php') ?>
 		<!--header include-->
 		
-		<div class="mast">
-			<img src="img/proyectos/barrios_amables/barios_amables_main.jpg" alt="cuadra urbano">
+		<div class="mast barriosamables">
+			<!--<img src="img/proyectos/barrios_amables/barios_amables_main.jpg" alt="cuadra urbano">-->
 		</div>
 		
 		
