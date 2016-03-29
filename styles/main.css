@@ -423,6 +423,9 @@ html, body {
 .center {
   text-align: center; }
 
+.white-bg {
+  background-color: #fff; }
+
 /*--headers--*/
 h1, h2 {
   color: #eb151d;
@@ -480,86 +483,106 @@ p {
   background-attachment: fixed; }
 
 .mast.inicio {
-  background-image: url("../img/gifs/crucepeatonaldf.gif"); }
+  /*background-image:url('../img/gifs/crucepeatonaldf.gif');*/ }
 
 .mast.serv {
-  background-image: url("../img/gifs/servicios.gif"); }
+  /*background-image:url('../img/gifs/servicios.gif');*/ }
 
 .mast.proyectos {
-  background-image: url("../img/gifs/merida.gif"); }
+  /*background-image:url('../img/gifs/merida.gif');*/ }
 
 .mast.contacto {
-  background-image: url("../img/gifs/crucepeatonaldf.gif"); }
+  /*background-image:url('../img/gifs/crucepeatonaldf.gif');*/ }
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url(polina.jpg) no-repeat;*/
+  background-size: cover; }
 
 /*--paginas--*/
-.inicio .container .inner .p-cont {
-  width: 40%;
-  float: left; }
-  .inicio .container .inner .p-cont .side-border {
+.inicio .home {
+  background-color: #fff; }
+  .inicio .home .container .inner .p-cont {
+    width: 40%;
     float: left; }
-  .inicio .container .inner .p-cont p {
-    float: right;
-    width: 80%; }
-.inicio .container .inner .p-cont2 {
-  width: 40%;
-  float: left;
-  visibility: hidden; }
-  .inicio .container .inner .p-cont2 .side-border {
+    .inicio .home .container .inner .p-cont .side-border {
+      float: left; }
+    .inicio .home .container .inner .p-cont p {
+      float: right;
+      width: 80%; }
+  .inicio .home .container .inner .p-cont2 {
+    width: 40%;
     float: left;
-    margin-top: 30px; }
-  .inicio .container .inner .p-cont2 h3 {
+    visibility: hidden; }
+    .inicio .home .container .inner .p-cont2 .side-border {
+      float: left;
+      margin-top: 30px; }
+    .inicio .home .container .inner .p-cont2 h3 {
+      float: right;
+      width: 80%;
+      margin: 0;
+      font-weight: normal;
+      color: #eb151d;
+      font-size: 48px; }
+    .inicio .home .container .inner .p-cont2 h4 {
+      float: right;
+      width: 80%;
+      margin: 0;
+      font-size: 30px; }
+  .inicio .home .container .inner h5 {
     float: right;
-    width: 80%;
-    margin: 0;
-    font-weight: normal;
-    color: #eb151d;
-    font-size: 48px; }
-  .inicio .container .inner .p-cont2 h4 {
+    width: 40%; }
+  .inicio .home .container .inner h6 {
     float: right;
-    width: 80%;
-    margin: 0;
-    font-size: 30px; }
-.inicio .container .inner h5 {
-  float: right;
-  width: 40%; }
-.inicio .container .inner h6 {
-  float: right;
-  width: 40%;
-  margin-top: 75px;
-  margin-right: 13%;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: normal; }
-.inicio .container .inner h6.border-top-red {
-  visibility: hidden; }
+    width: 40%;
+    margin-top: 75px;
+    margin-right: 13%;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal; }
+  .inicio .home .container .inner h6.border-top-red {
+    visibility: hidden; }
 
 /*--servicios--*/
-.servicios .container .inner {
-  padding: 10px; }
-  .servicios .container .inner .etabs {
-    margin: 3% 0 0 0;
-    padding: 0;
-    list-style-type: none;
-    width: 40%;
-    text-align: right; }
-    .servicios .container .inner .etabs .tab {
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
-      margin: 0 2%;
-      width: 15%; }
-      .servicios .container .inner .etabs .tab.active a {
-        background-color: #000; }
-      .servicios .container .inner .etabs .tab a {
-        color: #fff;
-        text-decoration: none;
-        display: block;
-        border-radius: 50%;
-        padding: 35% 0%;
-        background-color: #9b9b9b;
-        text-align: center; }
-        .servicios .container .inner .etabs .tab a:hover {
+.servicios {
+  background-color: #fff; }
+  .servicios .container .inner {
+    padding: 10px; }
+    .servicios .container .inner .etabs {
+      margin: 3% 0 0 0;
+      padding: 0;
+      list-style-type: none;
+      width: 40%;
+      text-align: right; }
+      .servicios .container .inner .etabs .tab {
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        margin: 0 2%;
+        width: 15%; }
+        .servicios .container .inner .etabs .tab.active a {
           background-color: #000; }
+        .servicios .container .inner .etabs .tab a {
+          color: #fff;
+          text-decoration: none;
+          display: block;
+          border-radius: 50%;
+          padding: 35% 0%;
+          background-color: #9b9b9b;
+          text-align: center; }
+          .servicios .container .inner .etabs .tab a:hover {
+            background-color: #000; }
 
 #us h5, #ui h5, #tic h5, #epm h5, #pp h5 {
   width: 50%;

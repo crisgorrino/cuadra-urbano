@@ -15,7 +15,10 @@
 		<!--header include-->
 		
 		<div class="mast contacto">
-			<!--img src="img/gifs/crucepeatonaldf.gif" alt="cuadra urbano">-->
+			<video autoplay loop poster="" id="bgvid">
+				<!--<source src="polina.webm" type="video/webm">-->
+				<source src="img/videos/saltillo.mp4" type="video/mp4">
+			</video>
 		</div>
 		
     </body>

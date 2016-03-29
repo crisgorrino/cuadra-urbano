@@ -15,9 +15,13 @@
 		<!--header include-->
 		
 		<div class="mast inicio">
-			<!--<img src="img/gifs/crucepeatonaldf.gif" alt="cuadra urbano">-->
+			<video autoplay loop poster="" id="bgvid">
+				<!--<source src="polina.webm" type="video/webm">-->
+				<source src="img/videos/home.mp4" type="video/mp4">
+			</video>
 		</div>
 		
+		<div class="home">
 		<div class="container">
 			<div class="inner cf">
 				<h1>¿Qué es Cuadra Urbanismo?</h1>
@@ -69,6 +73,7 @@
 
 
 			</div>
+		</div>
 		</div>	
 		<!--que hacemos-->
 		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 

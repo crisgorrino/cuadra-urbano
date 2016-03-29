@@ -15,10 +15,13 @@
 		<!--header include-->
 		
 		<div class="mast proyectos">
-			<!--<img src="img/gifs/merida.gif" alt="cuadra urbano">-->
+			<video autoplay loop poster="" id="bgvid">
+				<!--<source src="polina.webm" type="video/webm">-->
+				<source src="img/videos/oaxaca.mp4" type="video/mp4">
+			</video>
 		</div>
 		
-		
+		<div class="white-bg cf">
 		<div class="container bg-gray">
 			<div class="inner cf ">
 				<h1 class="left">Proyectos</h1>
@@ -125,6 +128,6 @@
 					<!--proyectos-->						
 			</div>
 		</div>
-				
+		</div>		
     </body>
 </html>

@@ -15,7 +15,10 @@
 		<!--header include-->
 		
 		<div class="mast serv">
-			<!--<img src="img/gifs/servicios.gif" alt="cuadra urbano">-->
+			<video autoplay loop poster="" id="bgvid">
+				<!--<source src="polina.webm" type="video/webm">-->
+				<source src="img/videos/servicios.mp4" type="video/mp4">
+			</video>
 		</div>
 		
 		<div class="servicios">
