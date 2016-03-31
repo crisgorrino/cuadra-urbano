@@ -28,10 +28,10 @@
 				
 				<div class="p-cont cf">
 					<span class="side-border"></span>
-					<p>Somos una oficina dedicada a desarrollar e implementar estrategias innovadoras para conocer y resolver los desafíos urbanos.</p>
+					<p>Somos una oficina dedicada a desarrollar e implementar estrategias innovadoras para conocer y resolver los desafíos urbanos. Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que deseamos vivir.</p>
 				</div>
 				
-				<h5 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h5>
+				<h5 class="border-top-red">Aprovechamos la inteligencia comunitaria de los distintos actores sociales para co-crear la ciudad en la que todos queremos vivir</h5>
 			
 			</div>
 		</div>
@@ -48,7 +48,7 @@
 					<h4>Vinculamos</h4>
 				</div>
 				
-				<h6 class="border-top-red">Vinculamos los esfuerzos de los distintos actores sociales para co-crear la ciudad en la que todos deseamos vivir.</h6>
+				<h6 class="border-top-red">Aprovechamos la inteligencia comunitaria de los distintos actores sociales para co-crear la ciudad en la que todos queremos vivir.</h6>
 				
 				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
 				
@@ -58,7 +58,7 @@
 					<h4>Planeamos</h4>
 				</div>
 				
-				<h6 class="border-top-red">La complejidad de los procesos urbanos hacen necesario el desarrollo de estrategias integrales eficaces y congruentes. </h6>
+				<h6 class="border-top-red">Aplicamos métodos y técnicas profesionales para definir los retos, identificar las oportunidades y  diseñar rutas de acción congruentes con prospectiva de largo plazo.</h6>
 				
 				
 				<img src="img/inicio/q-hacemos-img.jpg" alt="Cuadra que hacemos" class="home-imgs">
@@ -66,10 +66,10 @@
 				<div class="p-cont2 cf">
 					<span class="side-border"></span>
 					<h3>03</h3>
-					<h4>Resolvemos</h4>
+					<h4>Intervenimos</h4>
 				</div>
 				
-				<h6 class="border-top-red">En Cuadra hemos estructurado nuestros productos y servicios para abordar de forma integral los retos de la ciudad. </h6>
+				<h6 class="border-top-red">Ejecutamos proyectos creativos de activación en el espacio público, para fortalecer el tejido social y potenciar el cambio social.</h6>
 
 
 			</div>
@@ -92,7 +92,7 @@
 				var imagePos = $(this).offset().top;
 		
 				var topOfWindow = $(window).scrollTop();
-					if (imagePos < topOfWindow+700) {
+					if (imagePos < topOfWindow+950) {
 						$(this).addClass("fadeIn");
 					}
 				});
@@ -101,7 +101,7 @@
 				var imagePos = $(this).offset().top;
 		
 				var topOfWindow = $(window).scrollTop();
-					if (imagePos < topOfWindow+700) {
+					if (imagePos < topOfWindow+950) {
 						$(this).addClass("slideLeft");
 					}
 				});

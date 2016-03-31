@@ -23,111 +23,40 @@
 		
 		<div class="white-bg cf">
 		<div class="container bg-gray">
-			<div class="inner cf ">
+			<div class="inner cf tab-container" id="tab-containerp">
 				<h1 class="left">Proyectos</h1>
 				
-				<ul class='proy-filters'>
-					<li class='filter active'><a href="#us">US</a></li>
-					<li class='filter'><a href="#ui">IU</a></li>
-					<li class='filter'><a href="#tic">TIC</a></li>
-					<li class='filter'><a href="#epm">EPM</a></li>
-					<li class='filter'><a href="#pp">PP</a></li>
+				<ul class='proy-filters etabs'>
+					<li class='filter tab'><a href="#us">US</a></li>
+					<li class='filter tab'><a href="#iu">IU</a></li>
+					<li class='filter tab'><a href="#tic">TIC</a></li>
+					<li class='filter tab'><a href="#epm">EPM</a></li>
+					<li class='filter tab'><a href="#pp">PP</a></li>
 				</ul>
 				<div class="clear"></div>
-					<!--proyectos-->
-					<div class="serv-proyectos">
-								
-						<!--proy 1-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 01</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 1-->
-								
-						<!--proy 2-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 02</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 2-->
-								
-								
-						<!--proy 3-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 03</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 3-->
-						
-						
-						<!--proy 1-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 04</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 1-->
-								
-						<!--proy 2-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 05</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 2-->
-								
-								
-						<!--proy 3-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 06</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 3-->
-						
-						
-						<!--proy 1-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 07</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 1-->
-								
-						<!--proy 2-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 08</h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 2-->
-								
-								
-						<!--proy 3-->
-						<div class="sp center">
-							<a href="detalle-proyecto.php"><img src="img/proy-placeholder.jpg" alt=""></a>
-							<h2>Titulo 09 </h2>
-							<p>This is Photoshop's version  of Lorem Ipsum velit auctor aliquet. Aenean sollicitudin lorem quis bibendum auctor, nisi elit 											consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan 										ipsum velit.										
-							</p>
-						</div>
-						<!--proy 3-->
-						
-								
-					</div>	
-					<!--proyectos-->						
+				
+					<?php include('proyectos/us.php');?>
+					
+					<?php include('proyectos/iu.php');?>
+					
+					<?php include('proyectos/tic.php');?>
+					
+					<?php include('proyectos/epm.php');?>
+					
+					<?php include('proyectos/pp.php');?>
+											
 			</div>
 		</div>
-		</div>		
+		</div>
+		<!--JS includes-->
+		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+		<script src="js/jquery.hashchange.min.js" type="text/javascript"></script>
+		<script src="js/jquery.easytabs.min.js" type="text/javascript"></script>
+		
+		 <script type="text/javascript">
+		    $(document).ready( function() {
+		      $('#tab-containerp').easytabs();
+		    });
+		</script>		
     </body>
 </html>
